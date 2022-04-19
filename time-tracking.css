@@ -19,8 +19,7 @@
 .son{
     width: 200px;
     height: 150px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-radius: 10px;
     color: #fff;
     background: hsl(235, 46%, 20%);
 }
@@ -39,4 +38,26 @@
 .work-pic{
     height: 50px;
     margin-left: 8.5rem;
+}
+
+.text{
+    padding: 0 20px;
+}
+
+.text h1{
+    font-size: 18px;
+    position: relative;
+    bottom: 2.2rem;
+}
+
+.text span{
+    font-size: 45px;
+    font-weight: 300;
+    position: relative;
+    bottom: 1rem;
+}
+
+.text legend{
+    font-size: 15px;
+    color: #c0bdbd;
 }
