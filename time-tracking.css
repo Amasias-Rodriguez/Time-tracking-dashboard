@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Outfit:wght@400;700&family=PT+Sans&family=Poppins&family=Rubik:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+    padding: 3rem 10rem;
+    margin: 0 20rem;
+}
+
+.son{
+    width: 200px;
+    height: 150px;
+    color: #fff;
+    background: hsl(235, 46%, 20%);
+}
