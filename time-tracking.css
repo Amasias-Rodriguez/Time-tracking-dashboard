@@ -7,13 +7,84 @@
     font-family: 'Rubik', sans-serif;
 }
 
+body{
+    background: hsl(226, 43%, 10%);
+}
+
+.aside{
+    padding: 0 8rem;
+    margin-left: 6rem;
+    position: relative;
+    top: 6.7rem;
+
+}
+
+.aside-container{
+    width: 200px;
+    height: 235px;
+    display: block;
+    border-radius: 15px;
+    background: hsl(235, 54%, 55%);
+}
+
+.aside-container{
+    padding: 0 2rem;
+}
+
+.aside-img{
+    width: 50px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.aside-span{
+    display: block;
+    margin-top: 20px;
+    color: #c0bdbd;
+}
+
+.aside-h1{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.aside-down{
+    width: 200px;
+    height: 148px;
+    position: relative;
+    bottom: 10px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: hsl(235, 46%, 20%);
+    z-index: -1;
+}
+
+.aside-down ul{
+    color: #c0bdbd;
+}
+
+.aside-down ul li{
+    list-style: none;
+    padding: 10px 2rem;
+    position: relative;
+    top: 1rem;
+}
+
+
+/* GRID */
+
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    gap: 20px;
-    padding: 3rem 5rem;
+    gap: 30px;
+    padding: 0 8rem;
     margin: 0 20rem;
+    position: relative;
+    bottom: 15rem;
+    /* border: 1px solid white; */
 }
 
 .son{
@@ -60,4 +131,69 @@
 .text legend{
     font-size: 15px;
     color: #c0bdbd;
+}
+
+.img-two{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    bottom: 35px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: hsl(195, 74%, 62%);
+    z-index: -1;
+}
+
+.img-three{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    bottom: 35px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: hsl(348, 100%, 68%);
+    z-index: -1;
+}
+
+.img-four{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    bottom: 35px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: hsl(145, 58%, 55%);
+    z-index: -1;
+}
+
+.work-pic-4{
+    height: 50px;
+    margin-left: 7rem;
+}
+
+.img-five{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    bottom: 35px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: -1;
+    background: hsl(264, 64%, 52%);
+}
+
+.img-six{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    bottom: 35px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: -1;
+    background: hsl(43, 84%, 65%);
+}
+
+.work-pic-6{
+    height: 45px;
+    margin-left: 9rem;
 }
